@@ -26,7 +26,7 @@ When using containers you might want to test the connectivity between the contai
 To run a on Kubernetes:
 
 ```
-kubectl run --rm utils -it --restart=Never --image yenigul/dockernettools bash
+kubectl run --rm utils -it --restart=Never --image ajayp2608/dockernettools bash
 ```
 
 To run on docker engine
